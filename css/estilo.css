@@ -261,7 +261,7 @@ padding: 10px;
     align-items: center;
     flex-wrap: wrap;
 }
-.card{
+.cards{
     background-color: #F2E5D7;
     border-radius: 6px;
     box-shadow: #fff8f1;
@@ -331,12 +331,7 @@ padding: 10px;
     font-size: 24px;
 }
 
-form{
-    background-color: #fff8f1;
-    padding: 40px 0;
-    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
-    border-radius: 5px;
-}
+
 
 .prueba{
     object-fit: cover;
@@ -872,6 +867,303 @@ div ul li a:hover::after{
     background-color: rgb(69, 36, 100);
 }
 
+/*-------------------Form-------------------*/
+.volanta {
+    margin-bottom: 45px;
+    color: #2e2b3f;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-indent: 15px;
+  }
+  
+  .agrandar{
+    font-size: 24px !important;
+  }
+  
+  #principios .volanta {
+    margin-bottom: 15px;
+    color: #2e2b3f;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 22px;
+    text-transform: uppercase;
+  }
+
+  .letra{
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+    color: rgb(49, 47, 47);
+}
+
+h2.agradecemos {
+    display: block;
+    padding: 75px 0;
+    color: #2e2b3f;
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mapa {
+    display: block;
+    overflow: hidden;
+}
+
+.hide{
+    overflow: hidden;
+}
+
+.box {
+    display: block;
+    margin-bottom: 15px;
+    padding: 45px 45px 41px 45px;
+    background: white;
+}
+
+.box p {
+    display: block;
+    margin: 0 0 45px 0;
+}
+
+.limit {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    max-height: 368px;
+}
+
+.box p:last-child {
+    margin-bottom: 0;
+}
+
+.box p{
+    color:#03415e;
+}
+
+.bckcon{
+    background-color: #eee;
+}
+.box nav a {
+    display: block;
+    margin-bottom: 57px;
+}
+
+.box nav a:last-child {
+    margin-bottom: 0px;
+}
+
+.letrab{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    padding: 3px;
+    color: rgb(49, 47, 47);
+}
+
+  .medio{
+    padding: 5% 15px 0;
+}
+  .volanta a {
+    color: #7c529b;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  .volanta a:hover {
+    text-decoration: underline;
+  }
+  
+  .volantablanca {
+    color: white;
+  }
+  
+  figure {
+    margin: 0 !important;
+  }
+  
+  input,
+  select.custom-select {
+    font-size: 14px !important;
+  }
+  
+  input.form-control::-webkit-input-placeholder,
+  textarea.form-control::-webkit-input-placeholder,
+  textarea.form-control,
+  select.form-control {
+    color: #777;
+    text-shadow: 0;
+    font-size: 13px;
+  }
+  
+  button {
+    border: none;
+  }
+  
+  .espacio {
+    padding: 3rem 0;
+    background: #201a3d;
+  }
+
+  .conctactForm{
+    background: #201a3d;
+  }
+  
+  #contact .section-heading {
+    color: #fff
+  }
+  
+  #contact .form-group {
+    margin-bottom: 15px
+  }
+  
+  #contact .form-group input,
+  section#contact .form-group textarea {
+    padding: 15px
+  }
+  
+  #contact .form-group input.form-control {
+    height: auto;
+    border: none;
+    border-radius: 0;
+  }
+  
+  #contact.formulario .form-group textarea.form-control {
+    height: 262px;
+    border: none;
+    border-radius: 0;
+  }
+  
+  #contact .form-group textarea.form-control {
+    height: 249px;
+    border: none;
+    border-radius: 0;
+  }
+  
+  #contact .cultura .form-group textarea.form-control {
+    height: 180px;
+    border: none;
+    border-radius: 0;
+  }
+  
+  #contact .form-control:focus {
+    border-color: #4297f6;
+    box-shadow: none
+  }
+  
+  #contact ::-webkit-input-placeholder {
+    font-family: 'Open Sans', sans-serif;
+    color: #999;
+  }
+  
+  #contact :-moz-placeholder {
+    font-family: 'Open Sans', sans-serif;
+    color: #999;
+  }
+  
+  #contact ::-moz-placeholder {
+    font-family: 'Open Sans', sans-serif;
+    color: #999;
+  }
+  
+  #contact :-ms-input-placeholder {
+    font-family: 'Open Sans', sans-serif;
+    color: #999;
+  }
+  
+  #contact.formulario .text-danger {
+    color: #e74c3c;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  
+  #contact .text-danger {
+    color: #e74c3c;
+    font-size: 12px;
+  }
+  
+  .indicador {
+    position: absolute;
+    top: 6px;
+    left: -15px;
+    display: block;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .indicador-i {
+    position: absolute;
+    top: 51px;
+    left: -15px;
+    display: block;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .indicador-t{
+    position: absolute;
+    top: 78px;
+    left: -15px;
+    display: block;
+    width: 10px;
+    height: 10px;
+  }
+  .hide-lg {
+    display: block;
+  }
+  
+  .boton {
+    display: inline-block;
+    padding: 15px 60px 15px 30px;
+    background: #58bba9 url(../_img/flecha-blanca.png) no-repeat 90% 18px;
+    background-size: 18px;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: rgb(0, 0, 0, 0.15) 1px 1px 1px;
+    text-transform: uppercase;
+  }
+  
+  .boton:hover {
+    background: #48a292 url(../_img/flecha-blanca.png) no-repeat 90% 18px;
+    background-size: 18px;
+    color: white;
+  }
+  
+  .new .indicador {
+    position: absolute;
+    top: 56px;
+    left: -25px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: url(../_img/indicador.png) no-repeat 0px 0px;
+    background-size: 10px;
+   }
+  
+  .indicador-m {
+    position: absolute;
+    top: 62px;
+    left: -15px;
+    display: block;
+    width: 10px;
+    height: 10px;
+   }
+  
+  .hide-sm {
+    display: none;
+  }
+
+  .exitos {
+    background-color: #201a3d;
+    padding-top: 15px;
+}
+/*----------------Fin Form-------------------*/
+
 /* Tablet */
 @media screen and (max-width: 1024px) {
     .header {
@@ -1067,3 +1359,45 @@ div ul li a:hover::after{
             display: none;
         }
     }
+
+    /* sm */
+  
+  @media only screen and (max-width: 767px) {
+    .espacio {
+        padding: 2.5rem 0;
+    }
+    .hide-lg {
+        display: none !important;
+    }
+    .hide-sm {
+        display: block !important;
+    }
+
+    .indicador-i {
+        left: 0px;
+        top:6px;
+    }
+
+    .indicador-m {
+        left: 0px;
+        top:19px
+    }
+    #contacto {
+        background-image: none;
+        background: #201a3d;
+    }
+    #contacto h5 {
+        margin-bottom: 45px !important;
+    }
+
+}
+/* xs */
+
+@media only screen and (max-width: 575px) {
+    .hide-lg {
+        display: none !important;
+    }
+    .hide-sm {
+        display: block !important;
+    }
+}
