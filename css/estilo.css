@@ -92,6 +92,28 @@ ul{
     padding: 15px;
 }
 
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #707070 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #707070;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
 /*Formulario*/
 
 .bodyform{
@@ -331,8 +353,6 @@ padding: 10px;
     font-size: 24px;
 }
 
-
-
 .prueba{
     object-fit: cover;
     height: 600px;
@@ -560,52 +580,12 @@ i{
 
 /*-----------------Fin de Cursos------------*/
 
-.nov{
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='563' preserveAspectRatio='none' viewBox='0 0 1440 563'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1027%26quot%3b)' fill='none'%3e%3crect width='1440' height='563' x='0' y='0' fill='rgba(61%2c 90%2c 108%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c634.864C119.62%2c664.822%2c248.384%2c614.579%2c351.704%2c547.263C454.684%2c480.169%2c520.141%2c372.643%2c572.873%2c261.622C626.252%2c149.238%2c680.397%2c27.708%2c656.469%2c-94.386C632.914%2c-214.578%2c549.151%2c-320.508%2c445.88%2c-386.357C353.431%2c-445.306%2c229.22%2c-392.758%2c126.869%2c-432.077C9.924%2c-477.002%2c-59.942%2c-641.409%2c-184.557%2c-628.545C-304.618%2c-616.151%2c-351.53%2c-464.289%2c-432.056%2c-374.379C-514.183%2c-282.681%2c-631.46%2c-214.406%2c-662.227%2c-95.214C-694.051%2c28.073%2c-680.753%2c175.807%2c-599.346%2c273.712C-519.728%2c369.465%2c-360.848%2c331.25%2c-254.186%2c395.522C-152.445%2c456.829%2c-115.225%2c606.007%2c0%2c634.864' fill='%23364f5f'%3e%3c/path%3e%3cpath d='M1440 1097.917C1554.116 1109.373 1672.912 1135.583 1776.933 1087.278 1886.71 1036.301 1966.058 936.194 2020.7649999999999 828.227 2076.937 717.3679999999999 2126.683 588.274 2089.933 469.554 2054.073 353.707 1912.709 313.85900000000004 1833.199 222.291 1753.809 130.861 1741.7359999999999-34.950000000000045 1624.745-66.18200000000002 1507.162-97.57299999999998 1405.886 23.083999999999946 1298.006 79.41399999999999 1212.047 124.298 1117.253 155.10500000000002 1056.379 230.58999999999997 996.619 304.693 973.018 399.76099999999997 963.294 494.46 953.861 586.327 971.8679999999999 675.767 1001.694 763.168 1034.311 858.75 1063.644 962.429 1143.907 1023.729 1226.441 1086.763 1336.667 1087.5439999999999 1440 1097.917' fill='%23446579'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1027'%3e%3crect width='1440' height='563' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-}
 
 .an:link, .an:visited, .an:active, .an:hover {
     text-decoration:none;
     color: #2a6681;
 }
 
-.nov__container{
-    margin: 0 5vw;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-.nov__container .nov__post .nov__content{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 80%;
-    margin: 3rem 2rem;
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-}
-
-.nov__content .nov__title{
-    padding: 2rem 0;
-    font-size: 14px;
-    letter-spacing: 1.2px;
-}
-
-.borde{
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.nov__content .btn-nov{
-    padding: .6rem 2rem;
-    background:#FFF5D7;
-    margin: .8rem;
-}
 
 .btn-nov{
     font-family: 'Jost', sans-serif;
@@ -737,73 +717,124 @@ background-size: cover;
     transition: all 0.3s ease 0s;
 }
 
-/*Bootstrap Novedades*/
-.carousel-indicatorss [data-bs-target] {
-    box-sizing: content-box;
-    flex: 0 1 auto;
-    width: 30px;
-    height: 3px;
-    padding: 0;
-    margin-right: 3px;
-    margin-left: 3px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    opacity: .5;
-    transition: opacity .6s ease;
-}
-.carousel-indicatorss {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin-right: 15%;
-    margin-bottom: 1rem;
-    margin-left: 15%;
-    list-style: none;
+/*Carrusel Novedades*/
+
+.boxb{
+    width: 300px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 30px;
+
 }
 
-/* Menu Lateral */
-
-.btn-open-sidebar {
-    display: none;
-}
-
-.nav__item--oculto {
-    display: none;
-}
-
-
-/*Animaciones*/
-div ul li a {
+.slide-img{
+    height: 300px;
     position: relative;
 }
 
-div ul li a::after {
-    content: "" ;
-    position: absolute;
-    top: 90%;
-    left: 0%;
+.slide-img img{
     width: 100%;
-    height: 9%;
-    background: rgb(100,59,124);
-    background: linear-gradient(90deg, rgba(100,59,124,1) 0%, rgba(105,32,135,1) 31%, rgba(145,120,166,1) 67%);
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 0.5s;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
 }
 
-div ul li a:hover::after{
-    transform: scaleX(1);
-    transform-origin: left;
+.detail-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: #ffffff
+    ;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+}
+
+.news h3{
+    color: aliceblue;
+    margin: 5px 0px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding-right: 8px;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    color: #000;
+    font-size: 16px;
+}
+
+.subt {
+    font-family: 'Jost', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    color: #000;
+}
+
+.leer{
+    color: rgb(16, 61, 102);
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 0.5px;
+    width: 100px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: flex;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+}
+
+.over{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(19, 76, 102, 0.959);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leer:hover{
+    transition: all ease 0.3s;
+    background-color: greenyellow;
+
+}
+
+.over{
+    visibility: hidden;
+}
+
+.slide-img:hover .over{
+    visibility: visible;
+    animation:fade 0.5s;
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+@keyframes fade{
+   0%{
+    opacity: 0; 
+   } 
+   100%{
+       opacity: 1;
+   }
 }
 
 /*Carrusel Bootstrap Cultura*/
@@ -879,6 +910,12 @@ div ul li a:hover::after{
     text-indent: 15px;
   }
   
+  .letrass{
+        font-size: 20px;
+        font-family: 'Jost', sans-serif;
+        text-align: start;
+    }
+
   .agrandar{
     font-size: 24px !important;
   }
@@ -1117,20 +1154,19 @@ h2.agradecemos {
   
   .boton {
     display: inline-block;
-    padding: 15px 60px 15px 30px;
-    background: #58bba9 url(../_img/flecha-blanca.png) no-repeat 90% 18px;
-    background-size: 18px;
+    padding: 15px 30px 15px 30px;
+    background: #58bba9;
     color: white;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 1px;
     text-shadow: rgb(0, 0, 0, 0.15) 1px 1px 1px;
     text-transform: uppercase;
+    text-align: center;
   }
   
   .boton:hover {
-    background: #48a292 url(../_img/flecha-blanca.png) no-repeat 90% 18px;
-    background-size: 18px;
+    background: #48a292;
     color: white;
   }
   
@@ -1288,6 +1324,7 @@ h2.agradecemos {
 
     .letras{
         font-size: 20px;
+        font-family: 'Jost', sans-serif;
     }
 
 
