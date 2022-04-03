@@ -95,63 +95,6 @@ ul {
   padding-left: 30px;
   padding: 15px; }
 
-/*Formulario*/
-.bodyform {
-  background: #4ECDC4;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #556270, #4ECDC4);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #556270, #4ECDC4);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
-
-.form {
-  background-color: #ffffff;
-  width: 90%;
-  max-width: 380px;
-  border-radius: 1em;
-  padding: 3.5em 1.5em;
-  margin: auto;
-  box-shadow: 0 10px 50px rgba(13, 62, 95, 0.473); }
-
-.formback {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1436' height='637' preserveAspectRatio='none' viewBox='0 0 1436 637'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1094%26quot%3b)' fill='none'%3e%3cpath d='M79.338%2c169.849C112.674%2c169.978%2c144.236%2c155.249%2c162.369%2c127.276C182.315%2c96.506%2c190.697%2c57.376%2c173.105%2c25.202C154.909%2c-8.077%2c117.267%2c-24.411%2c79.338%2c-24.583C41.081%2c-24.756%2c2.311%2c-9.293%2c-15.913%2c24.345C-33.469%2c56.75%2c-22.776%2c95.804%2c-2.59%2c126.639C15.534%2c154.325%2c46.247%2c169.721%2c79.338%2c169.849' fill='rgba(2%2c 9%2c 49%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M147.185%2c288.092C204.756%2c287.89%2c267.027%2c282.679%2c299.342%2c235.033C335.158%2c182.225%2c337.253%2c111.114%2c304.257%2c56.5C272.233%2c3.495%2c209.06%2c-19.385%2c147.185%2c-16.815C89.847%2c-14.434%2c41.041%2c19.656%2c11.194%2c68.67C-20.098%2c120.057%2c-38.526%2c184.967%2c-6.831%2c236.107C23.763%2c285.47%2c89.11%2c288.296%2c147.185%2c288.092' fill='rgba(2%2c 9%2c 49%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M20.037%2c79.872C40.041%2c79.972%2c54.493%2c63.028%2c64.318%2c45.603C73.925%2c28.565%2c79.764%2c8.139%2c70.062%2c-8.845C60.3%2c-25.935%2c39.718%2c-31.748%2c20.037%2c-31.918C-0.011%2c-32.091%2c-21.647%2c-27.179%2c-31.504%2c-9.72C-41.246%2c7.536%2c-33.364%2c27.986%2c-23.483%2c45.163C-13.566%2c62.402%2c0.149%2c79.772%2c20.037%2c79.872' fill='rgba(2%2c 9%2c 49%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1350.268%2c112.477C1376.878%2c113.189%2c1404.257%2c103.576%2c1417.581%2c80.531C1430.917%2c57.466%2c1424.599%2c29.511%2c1411.72%2c6.188C1398.3%2c-18.114%2c1378.02%2c-40.667%2c1350.268%2c-41.366C1321.561%2c-42.089%2c1296.419%2c-22.545%2c1283.213%2c2.954C1270.997%2c26.542%2c1275.051%2c54.431%2c1288.921%2c77.086C1302.133%2c98.666%2c1324.974%2c111.8%2c1350.268%2c112.477' fill='rgba(2%2c 9%2c 49%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1474.463%2c346.052C1534.173%2c341.898%2c1573.913%2c292.367%2c1605.279%2c241.39C1638.899%2c186.749%2c1673.637%2c124.681%2c1646.413%2c66.588C1615.921%2c1.52%2c1546.266%2c-40.564%2c1474.463%2c-37.758C1406.524%2c-35.103%2c1357.348%2c19.748%2c1324.316%2c79.176C1292.439%2c136.526%2c1275.626%2c204.902%2c1307.799%2c262.087C1340.491%2c320.195%2c1407.951%2c350.68%2c1474.463%2c346.052' fill='rgba(2%2c 9%2c 49%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1334.747%2c75.885C1352.831%2c74.463%2c1369.764%2c67.287%2c1379.562%2c52.021C1390.266%2c35.343%2c1395.307%2c14.065%2c1385.46%2c-3.133C1375.566%2c-20.413%2c1354.644%2c-25.49%2c1334.747%2c-26.251C1312.994%2c-27.083%2c1289.106%2c-25.27%2c1276.84%2c-7.286C1263.257%2c12.63%2c1262.023%2c40.397%2c1275.797%2c60.181C1288.25%2c78.068%2c1313.019%2c77.594%2c1334.747%2c75.885' fill='rgba(2%2c 9%2c 49%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-63.38 488.04 a41.82 41.82 0 1 0 83.64 0 a41.82 41.82 0 1 0 -83.64 0z' fill='rgba(2%2c 9%2c 49%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-133.99 558.66 a183.05 183.05 0 1 0 366.1 0 a183.05 183.05 0 1 0 -366.1 0z' fill='rgba(2%2c 9%2c 49%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M14.463%2c569.489C31.744%2c569.466%2c49.118%2c564%2c58.505%2c549.491C68.712%2c533.715%2c70.924%2c513.161%2c61.378%2c496.976C51.961%2c481.009%2c32.998%2c474.546%2c14.463%2c474.818C-3.543%2c475.082%2c-20.961%2c482.818%2c-30.13%2c498.317C-39.46%2c514.089%2c-39.512%2c534.079%2c-29.783%2c549.608C-20.582%2c564.294%2c-2.867%2c569.512%2c14.463%2c569.489' fill='rgba(2%2c 9%2c 49%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1406.529%2c717.36C1448.483%2c719.138%2c1492.686%2c705.759%2c1513.886%2c669.512C1535.248%2c632.988%2c1524.032%2c588.539%2c1503.517%2c551.533C1482.207%2c513.094%2c1450.466%2c474.762%2c1406.529%2c475.855C1363.722%2c476.92%2c1336.717%2c517.866%2c1317.554%2c556.159C1300.776%2c589.686%2c1295.74%2c628.21%2c1313.857%2c661.033C1332.579%2c694.953%2c1367.82%2c715.719%2c1406.529%2c717.36' fill='rgba(2%2c 9%2c 49%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1352.071%2c615.518C1378.79%2c616.171%2c1410.347%2c617.577%2c1423.874%2c594.526C1437.483%2c571.336%2c1421.062%2c544.286%2c1407.498%2c521.07C1394.112%2c498.159%2c1378.599%2c472.218%2c1352.071%2c471.629C1324.914%2c471.026%2c1305.337%2c494.729%2c1292.211%2c518.511C1279.624%2c541.315%2c1272.418%2c568.994%2c1286.096%2c591.161C1299.291%2c612.544%2c1326.952%2c614.905%2c1352.071%2c615.518' fill='rgba(2%2c 9%2c 49%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1184.97 548.3 a162.33 162.33 0 1 0 324.66 0 a162.33 162.33 0 1 0 -324.66 0z' fill='rgba(2%2c 9%2c 49%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1094'%3e%3crect width='1436' height='637' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
-  background-size: cover;
-  padding: 10px; }
-
-.form__container {
-  width: 100%;
-  display: grid;
-  gap: 1.2em;
-  grid-auto-columns: 100%;
-  text-align: center;
-  color: #2a6681;
-  margin-bottom: .4em; }
-
-.form__input {
-  font-family: "Jost", sans-serif;
-  font-size: 1rem;
-  padding: .7em 1em;
-  outline: none;
-  border: none;
-  border: 1px solid #459771;
-  border-radius: 0.4em; }
-
-.form__input--message {
-  resize: none;
-  padding: 1.8em 1em;
-  margin-bottom: .5em; }
-
-.form__cta {
-  font-family: "Jost", sans-serif;
-  color: #fff;
-  font-weight: 300;
-  font-size: 1em;
-  border: none;
-  background-color: #2a6681;
-  padding: .7em 0;
-  border-radius: 0.4em;
-  cursor: pointer; }
-
 .hero__button {
   font-family: "Jost", sans-serif;
   font-size: 15px;
@@ -193,10 +136,12 @@ ul {
 
 .hero__button:hover {
   background-color: #1e7c7c;
-  transition: all 0.3s ease 0s; }
+  transition: all 0.3s ease 0s;
+  text-decoration: none; }
 
 .hero__button:hover:not(:disabled) {
-  filter: brightness(1.1); }
+  filter: brightness(1.1);
+  text-decoration: none; }
 
 .hero__container {
   max-width: 1000vh;
@@ -858,38 +803,6 @@ h2.agradecemos {
 .hide {
   overflow: hidden; }
 
-.box {
-  display: block;
-  margin-bottom: 15px;
-  padding: 45px 45px 41px 45px;
-  background: white; }
-
-.box p {
-  display: block;
-  margin: 0 0 45px 0; }
-
-.limit {
-  display: block;
-  width: 100%;
-  overflow: hidden;
-  max-height: 368px; }
-
-.box p:last-child {
-  margin-bottom: 0; }
-
-.box p {
-  color: #03415e; }
-
-.bckcon {
-  background-color: #eee; }
-
-.box nav a {
-  display: block;
-  margin-bottom: 57px; }
-
-.box nav a:last-child {
-  margin-bottom: 0px; }
-
 .letrab {
   font-family: "Jost", sans-serif;
   font-size: 20px;
@@ -1550,10 +1463,14 @@ section#contact .form-group textarea {
 
 .folkies {
   color: #03415e;
-  padding: 15px 110px 0px; }
+  padding: 15px 110px 0px;
+  background-color: #eee; }
 
 .bcgBlanco {
   padding: 52px 3em;
+  background: #fbfafd; }
+
+.blanco {
   background: #fbfafd; }
 
 .work {
@@ -1572,6 +1489,201 @@ section#contact .form-group textarea {
 
 .up {
   margin: 0 0 26px; }
+
+/*----------------Segundo Slider Cultura-------------------*/
+.containerB {
+  height: 100vh;
+  width: 100%;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.boxB {
+  width: 350px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 20px 10px; }
+
+.model {
+  height: 350px;
+  max-height: 100%;
+  width: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover; }
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px; }
+
+.details p {
+  color: #2a6681;
+  text-align: center;
+  margin-top: 10px; }
+
+.details h3 {
+  color: #2a6681;
+  font-size: 23px;
+  text-align: center; }
+
+.details .quizas {
+  color: #2a6681;
+  text-align: center;
+  margin-top: 34px; }
+
+/*----------Contact form pag Contacto-----------*/
+.bckC {
+  background: linear-gradient(90deg, #1b4965 0%, #1b4965 30%, #F0F4EF 30%, #F0F4EF 100%); }
+
+.contactUs {
+  position: relative;
+  width: 100%;
+  padding: 40px 100px; }
+  .contactUs .title__Us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em; }
+
+.blueC {
+  color: #03415e;
+  text-align: center; }
+
+.fm {
+  grid-area: fm; }
+
+.infor {
+  grid-area: infor; }
+
+.map {
+  grid-area: map; }
+
+.cont {
+  padding: 40px;
+  background: #fff;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15);
+  border-radius: 7px; }
+
+.caja {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 5fr 4fr;
+  grid-template-areas: "fm infor" "fm map";
+  grid-gap: 20px;
+  margin-top: 20px; }
+
+.cont h3 {
+  color: #03415e;
+  font-weight: 500;
+  font-size: 1.4em;
+  margin-bottom: 10px; }
+
+.formBox {
+  position: relative;
+  width: 100%; }
+
+.formBox .row50 {
+  display: flex;
+  gap: 20px; }
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 50%; }
+  .inputBox span {
+    color: #03415e;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500; }
+  .inputBox input {
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333;
+    border-radius: 5px; }
+  .inputBox textarea {
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333;
+    border-radius: 5px;
+    resize: none;
+    min-height: 220px;
+    margin-bottom: 10px; }
+
+.formBox .row100 .inputBox {
+  width: 100%; }
+
+.inputBox input[type="submit"] {
+  background: #03415e;
+  color: #fff;
+  border: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  max-width: 140px;
+  cursor: pointer;
+  padding: 14px 15px;
+  text-transform: uppercase; }
+
+.infor {
+  background-color: #03415e; }
+  .infor h3 {
+    color: #fff; }
+
+.infor .inforBox div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; }
+
+.infor .inforBox div span {
+  min-width: 40px;
+  height: 40px;
+  background: #F0F4EF;
+  color: #03415e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  border-radius: 50%;
+  margin-right: 15px; }
+
+.infor .inforBox div a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em; }
+
+.infor .inforBox div p {
+  font-size: 1em; }
+
+.sci {
+  margin-top: 40px;
+  display: flex; }
+  .sci li {
+    list-style: none;
+    margin-right: 15px; }
+    .sci li a {
+      color: #ccc;
+      font-size: 2em; }
+
+.sci li a:hover {
+  color: #fff; }
+
+.map {
+  padding: 0; }
+  .map iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px; }
 
 /*-------------Footer------------*/
 .footer {
@@ -1730,7 +1842,7 @@ section#contact .form-group textarea {
     margin: 0 7px; } }
 
 /* sm */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .espacio {
     padding: 2.5rem 0; }
   .hide-lg {
@@ -1760,7 +1872,29 @@ section#contact .form-group textarea {
   .hide-sm {
     display: block !important; }
   .boxb {
-    margin: 29.5px; } }
+    margin: 29.5px; }
+  .m-c {
+    text-align: center; }
+  .serv__title {
+    margin: 0px 20px; }
+  .serv__cap {
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem; }
+  .bcgAzul {
+    text-align: center;
+    margin: 0; }
+  .bcgcul {
+    text-align: center;
+    padding: 7px; }
+  .folkies {
+    text-align: center; }
+  .pf {
+    text-transform: uppercase; }
+  .subir {
+    margin-top: -40px; }
+  .py-5 {
+    padding-top: 0rem !important; } }
 
 @media (max-width: 1200px) {
   .ontainer {
@@ -1803,7 +1937,40 @@ section#contact .form-group textarea {
   .menuDesktop {
     display: none; }
   .bajar {
-    margin-top: 700px; } }
+    margin-top: 700px; }
+  .cont {
+    background: #F0F4EF; }
+  .bckC {
+    background: #03415e; }
+  .blueC {
+    color: #F0F4EF; }
+  .contactUs {
+    padding: 40px; }
+  .caja {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "fm" "infor" "map"; }
+  .infor .inforBox div p {
+    color: #03415e; }
+  .infor .inforBox div a {
+    color: #03415e; }
+  .cont h3 {
+    color: #03415e; }
+  .sci li a {
+    color: #03415e; }
+  .formBox .row50 {
+    display: flex;
+    gap: 0;
+    flex-direction: column; }
+  .inputBox {
+    width: 100%; }
+  .cont {
+    padding: 30px; }
+  .map {
+    padding: 0;
+    min-height: 300px; } }
 
 @media (max-width: 670px) {
   .bajar {
@@ -1822,10 +1989,16 @@ section#contact .form-group textarea {
     font-size: 15px;
     margin: 5px; } }
 
+@media (max-width: 2560) {
+  .containerB {
+    height: 59vh; } }
+
 @media screen and (min-width: 992px) {
   .cardCursos {
     padding: 0 1em; }
   .undiv {
     flex-basis: 0 0 25%;
     max-width: 25%;
-    padding: 0 1em; } }
+    padding: 0 1em; }
+  .containerB {
+    height: 90vh; } }
