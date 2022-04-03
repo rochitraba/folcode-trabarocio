@@ -400,6 +400,7 @@ i{
     margin-left: 15px;
     padding-top: 15px;
     background:#eee ;
+    text-align: center;
 }
 
 .gris{
@@ -1239,7 +1240,6 @@ h2.agradecemos {
 .ontainer .contactForm .formBox .inputBox span{
     position: absolute;
     left: 0;
-    padding: 5px 0;
     pointer-events: none;
     font-size: 18px;
     font-weight: 300;
@@ -1744,17 +1744,17 @@ h2.agradecemos {
     }
 }
 
-.formBox{
+.form-Box{
   position: relative;
   width: 100%;
 }
 
-.formBox .row50{
+.form-Box .row-50{
   display: flex;
   gap: 20px;
 }
 
-.inputBox{
+.input-Box{
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
@@ -1784,11 +1784,11 @@ h2.agradecemos {
     }
 }
 
-.formBox .row100 .inputBox{
+.form-Box .row-100 .input-Box{
   width: 100%;
 }
 
-.inputBox input[type="submit"]{
+.input-Box input[type="submit"]{
   background: $colorAzul;
   color: #fff;
   border: none;
@@ -1807,14 +1807,14 @@ h2.agradecemos {
   }
 }
 
-.infor .inforBox div{
+.infor .infor-Box div{
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 
 }
 
-.infor .inforBox div span{
+.infor .infor-Box div span{
   min-width: 40px;
   height: 40px;
   background: #F0F4EF;
@@ -1827,13 +1827,13 @@ h2.agradecemos {
   margin-right: 15px;
 }
 
-.infor .inforBox div a{
+.infor .infor-Box div a{
   color: #fff;
   text-decoration: none;
   font-size: 1em;
 }
 
-.infor .inforBox div p{
+.infor .infor-Box div p{
   font-size: 1em;
 }
 

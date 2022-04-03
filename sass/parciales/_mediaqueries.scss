@@ -93,8 +93,8 @@
 
     h3{
         font-size: 20px;
-        margin-top: 5px;
-    }
+        margin: 5px 30px;
+        }
 
     .nov__content{
         width: 100%;
@@ -393,10 +393,10 @@
         "map";
       }
 
-      .infor .inforBox div p{
+      .infor .infor-Box div p{
           color: $colorAzul;
       }
-      .infor .inforBox div a{
+      .infor .infor-Box div a{
         color: $colorAzul;
     }
     .cont h3 {
@@ -407,13 +407,13 @@
         color: $colorAzul;
     }
 
-    .formBox .row50{
+    .form-Box .row-50{
         display: flex;
         gap: 0;
         flex-direction: column;
     }
 
-    .inputBox{
+    .input-Box{
         width: 100%;
     }
 
@@ -424,6 +424,14 @@
     .map{
         padding: 0;
         min-height: 300px;
+    }
+
+    .infor .infor-Box div a{
+        color: $colorAzul;
+    }
+
+    .infor .infor-Box div p{
+        color: $colorAzul;
     }
 }
 
