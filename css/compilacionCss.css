@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   font-family: "Jost", sans-serif;
   color: #fff8f1; }
@@ -137,7 +140,8 @@ ul {
 .hero__button:hover {
   background-color: #1e7c7c;
   transition: all 0.3s ease 0s;
-  text-decoration: none; }
+  text-decoration: none;
+  color: #fff; }
 
 .hero__button:hover:not(:disabled) {
   filter: brightness(1.1);
@@ -1685,6 +1689,9 @@ section#contact .form-group textarea {
     height: 100%;
     border-radius: 5px; }
 
+.input-Box input[type="submit"]:hover {
+  background: #9d4edd; }
+
 /*-------------Footer------------*/
 .footer {
   background-color: #a253ec;
@@ -1748,7 +1755,9 @@ section#contact .form-group textarea {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 150px 300px 300px; }
   .menuDesktop {
-    display: none; } }
+    display: none; }
+  .btn-open-sidebar:hover {
+    color: #fff; } }
 
 /* Movil */
 @media screen and (max-width: 600px) {

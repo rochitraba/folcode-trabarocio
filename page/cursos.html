@@ -16,6 +16,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
@@ -92,14 +94,14 @@
                         <img class="home__img" src="../img/cursos.png" alt="">
                     </div>
                     <div>
-                        <div class="caption">
+                        <div class="caption" data-aos="fade-up">
                             <h3>
                                 “Folcademy es una academia de experiencias <br> educativas en nuevas tecnologías, con formación <br>
                                 en los roles más demandados del mundo tech.”
                             </h3>
                         </div>
                     </div>
-                    <div class="folclogo">
+                    <div class="folclogo" data-aos="fade-up">
                         <img class="logof" src="../img/folc-crop.png" alt="">
                         <p class="folcademy">FOLCADEMY</p>
                     </div>
@@ -239,6 +241,12 @@
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="../js/app.js"></script>
+
+    <!-- Animaciones -->    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

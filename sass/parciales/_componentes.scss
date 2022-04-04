@@ -45,6 +45,7 @@
     background-color: rgb(30, 124, 124);
     transition: all 0.3s ease 0s;
     text-decoration: none;
+    color: #fff;
 }
 
 .hero__button:hover:not(:disabled) {
@@ -1702,8 +1703,6 @@ h2.agradecemos {
   text-align: center;
 }
 
-
-
 .fm{
   grid-area: fm;
 }
@@ -1863,3 +1862,9 @@ h2.agradecemos {
 
     }
 }
+
+.input-Box input[type="submit"]:hover{
+  background: #9d4edd;
+}
+
+
