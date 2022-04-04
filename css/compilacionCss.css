@@ -1081,6 +1081,7 @@ section#contact .form-group textarea {
   z-index: 1;
   padding: 40px;
   display: flex;
+  border-radius: 12px;
   justify-content: center;
   flex-direction: column;
   justify-content: space-between;
@@ -1122,6 +1123,7 @@ section#contact .form-group textarea {
   width: calc(100% - 150px);
   height: 100%;
   background: #fff;
+  border-radius: 12px;
   box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25); }
 
 .ontainer .contactForm h2 {
@@ -1691,6 +1693,58 @@ section#contact .form-group textarea {
 
 .input-Box input[type="submit"]:hover {
   background: #9d4edd; }
+
+/*---------------Sobre Nosotros------------*/
+#headerinterna {
+  padding: 120px 0 0 0;
+  min-height: 450px;
+  background: url(../img/interna.png) no-repeat center top;
+  background-size: 1920px; }
+
+#headerinterna h1 {
+  color: white;
+  font-size: 25px;
+  font-weight: 400; }
+
+#headerinterna figure {
+  position: relative; }
+
+#headerinterna figure img {
+  position: absolute;
+  top: -60px;
+  left: 420px; }
+
+#headerprop {
+  padding: 120px 0 0 0;
+  min-height: 450px;
+  background: url(../img/politica1.png) no-repeat center top;
+  background-size: 1920px; }
+
+#headerprop h1 {
+  color: white;
+  font-size: 25px;
+  font-weight: 400; }
+
+#headerprop figure {
+  position: relative; }
+
+#headerprop figure img {
+  position: absolute;
+  top: -60px;
+  left: 420px; }
+
+.volantaB {
+  margin-bottom: 45px;
+  color: #2e2b3f;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  line-height: 22px;
+  text-transform: uppercase;
+  text-indent: 15px; }
+
+.volantaAzul {
+  color: #03415e; }
 
 /*-------------Footer------------*/
 .footer {
