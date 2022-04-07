@@ -127,6 +127,13 @@
         font-family: $tipografia;
     }
 
+    .tac{
+        text-align: center;
+    }
+
+    .bcgBlancobis {
+        padding: 15px 3em;
+    }
 }
 
 /* Menu lateral */
@@ -293,7 +300,6 @@
 
     .pf{
         text-transform: uppercase;
-
     }
 
     .subir{
@@ -302,6 +308,11 @@
 
     .py-5 {
         padding-top: 0rem!important;
+    }
+
+    .mq-xs{
+        margin: 0;
+        margin-bottom: 40px;
     }
 }
 
@@ -490,5 +501,27 @@
     
     .containerB{
         height: 90vh;
+    }
+}
+
+@media screen and (max-width: 920px){
+
+    .container__vector img{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 860px){
+    .container__vector img{
+        transform: scale(0);
+        animation: none;
+    }
+
+    .cover .container__info {
+        text-align: center;
+    }
+
+    .container__cover {
+        justify-content: center;
     }
 }
