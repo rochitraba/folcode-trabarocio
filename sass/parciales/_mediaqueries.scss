@@ -71,6 +71,11 @@
         color:#fff
     }
 
+    .vectorial{
+        width: 400px;
+        height: 400px;
+    }
+
 }
 
 /* Movil */
@@ -132,7 +137,7 @@
     }
 
     .bcgBlancobis {
-        padding: 15px 3em;
+        padding: 15px 2em;
     }
 }
 
@@ -212,7 +217,9 @@
         .serv__title{
             margin:0 7px
         }
-    }
+
+}
+
 
 
     /* sm */
@@ -253,7 +260,20 @@
         margin-top: 600px;
     }
 
+    .vectorial{
+        margin-top: 1.8em;
+    }
 
+    .cont__service{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .minireg {
+        font-size: 25px;
+        text-align: center;
+        margin: 40px 120px;
+    }
 
 }
 /* xs */
@@ -314,10 +334,19 @@
         margin: 0;
         margin-bottom: 40px;
     }
+
+    .minireg {
+        font-size: 25px;
+        text-align: center;
+        margin: 40px 90px;
+    }
 }
 
 @media (max-width : 1200px){
     
+    .mq-g{
+        margin-left: 15px;
+    }
     .ontainer{
         width: 90%;
         min-width: auto;
@@ -351,6 +380,12 @@
     .bajar{
         margin-top: 800px;
     }
+}
+
+@media (min-width : 1151px){
+.mq-s{
+    display: none;
+}
 }
 
 @media (max-width : 991px){
@@ -480,6 +515,10 @@
     margin: 5px;
 }
 
+.centrar{
+    text-align: center;
+  }
+
 }
 
 @media (max-width: 2560){
@@ -509,7 +548,13 @@
     .container__vector img{
         width: 500px;
     }
-}
+
+    .vectorial{
+        width: 370px;
+        height: 370px;
+    }
+
+    }
 
 @media screen and (max-width: 860px){
     .container__vector img{
@@ -525,3 +570,82 @@
         justify-content: center;
     }
 }
+
+@media (max-width : 1280px){
+
+    .creamos{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+    .renglon{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width : 1151px){
+    .mq-g{
+        display: none;
+    }
+    }
+
+@media (max-width : 529px){
+    .minireg {
+        font-size: 25px;
+        text-align: center;
+        margin: 40px 50px 0;
+    }
+
+    .vectorial{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 1030px) {
+	.cont-serv{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height:auto;
+        margin-bottom: 40px;
+	}
+
+    .service{
+        height: 95vh;
+    }
+  }
+
+  @media (max-width: 579px){
+    .carta{
+        width: 490px;
+    }
+
+    .service {
+        height: 102vh;
+    }
+  }
+
+  @media (max-width: 516px){
+    width: 390px;
+    height: auto;
+    text-align: initial;
+  }
+
+  @media (max-width: 505px){
+  .carta {
+    width: 344px;
+    height: auto;
+    text-align: initial;
+}
+
+    .carta{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-column{
+        max-width: 22rem;
+    }
+ }

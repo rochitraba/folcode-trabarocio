@@ -1478,7 +1478,7 @@ section#contact .form-group textarea {
   background: #fbfafd; }
 
 .bcgBlancobis {
-  padding: 52px 3em;
+  padding: 52px 2em;
   background: #fbfafd; }
 
 .blanco {
@@ -1500,9 +1500,9 @@ section#contact .form-group textarea {
 
 .azul {
   color: #2e2b3f;
-  margin-bottom: 40px;
   font-size: 23px;
-  text-align: center; }
+  text-align: center;
+  margin: 0 0 40px 0; }
 
 .azult {
   color: #2e2b3f;
@@ -1769,7 +1769,8 @@ section#contact .form-group textarea {
   font-family: "Jost", sans-serif;
   padding-top: 100px;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  background: #fbfafd; }
 
 .container__cover {
   max-width: 1200px;
@@ -1837,13 +1838,108 @@ section#contact .form-group textarea {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
-  padding-right: 10%;
-  padding-left: 10%;
+  padding-right: 5%;
+  padding-left: 5%;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-.5 * var(--bs-gutter-x));
   margin-left: calc(-.5 * var(--bs-gutter-x));
   justify-content: center; }
+
+/*-----Servicios-----*/
+.service {
+  width: 98.5vw;
+  height: 106vh;
+  background-image: url(../img/vector-1.png);
+  overflow-x: hidden; }
+
+.cont__service {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow-x: hidden; }
+
+.creamos {
+  margin-top: 4em;
+  color: #fff8f1;
+  font-size: 33px;
+  margin-left: 10px; }
+
+.renglon {
+  color: #fff8f1;
+  font-size: 33px;
+  margin-left: 10px; }
+
+.vectorial {
+  margin-top: 3em;
+  height: 450px;
+  width: 450px;
+  overflow-x: hidden; }
+
+.minireg {
+  font-size: 25px;
+  text-align: center;
+  margin: 0 18px; }
+
+.background1-left-column {
+  background: linear-gradient(180deg, #21c8f6, #637bff); }
+
+.background2-left-column {
+  background: linear-gradient(180deg, #6edcc4, #1aab8b); }
+
+.cont-serv {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center; }
+
+.carta {
+  background-color: var(--white-text);
+  border-radius: 1rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  margin: 1.5rem;
+  overflow: hidden;
+  width: 32rem;
+  height: 21rem; }
+
+.carta h6 {
+  opacity: 0.6;
+  letter-spacing: .1rem;
+  text-transform: uppercase; }
+
+.carta h2 {
+  letter-spacing: .1rem;
+  margin: 1rem 0;
+  color: var(black-text);
+  font-size: 19px; }
+
+.left-column {
+  color: var(--white-text);
+  padding: 2rem;
+  max-width: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; }
+
+.left-column h2 {
+  color: var(--white-text); }
+
+.left-column i {
+  font-size: 5rem; }
+
+.right-column {
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between; }
+
+.right-column p {
+  font-size: 1rem;
+  color: #212529; }
 
 /*-------------Footer------------*/
 .footer {
@@ -1910,7 +2006,10 @@ section#contact .form-group textarea {
   .menuDesktop {
     display: none; }
   .btn-open-sidebar:hover {
-    color: #fff; } }
+    color: #fff; }
+  .vectorial {
+    width: 400px;
+    height: 400px; } }
 
 /* Movil */
 @media screen and (max-width: 600px) {
@@ -1947,7 +2046,7 @@ section#contact .form-group textarea {
   .tac {
     text-align: center; }
   .bcgBlancobis {
-    padding: 15px 3em; } }
+    padding: 15px 2em; } }
 
 /* Menu lateral */
 .btn-open-sidebar {
@@ -2029,7 +2128,16 @@ section#contact .form-group textarea {
   .menuDesktop {
     display: none; }
   .bajar {
-    margin-top: 600px; } }
+    margin-top: 600px; }
+  .vectorial {
+    margin-top: 1.8em; }
+  .cont__service {
+    display: flex;
+    flex-direction: column; }
+  .minireg {
+    font-size: 25px;
+    text-align: center;
+    margin: 40px 120px; } }
 
 /* xs */
 @media only screen and (max-width: 575px) {
@@ -2063,9 +2171,15 @@ section#contact .form-group textarea {
     padding-top: 0rem !important; }
   .mq-xs {
     margin: 0;
-    margin-bottom: 40px; } }
+    margin-bottom: 40px; }
+  .minireg {
+    font-size: 25px;
+    text-align: center;
+    margin: 40px 90px; } }
 
 @media (max-width: 1200px) {
+  .mq-g {
+    margin-left: 15px; }
   .ontainer {
     width: 90%;
     min-width: auto;
@@ -2090,6 +2204,10 @@ section#contact .form-group textarea {
     display: none; }
   .bajar {
     margin-top: 800px; } }
+
+@media (min-width: 1151px) {
+  .mq-s {
+    display: none; } }
 
 @media (max-width: 991px) {
   .contactSection {
@@ -2160,7 +2278,9 @@ section#contact .form-group textarea {
     display: none; }
   .home__subtitle {
     font-size: 15px;
-    margin: 5px; } }
+    margin: 5px; }
+  .centrar {
+    text-align: center; } }
 
 @media (max-width: 2560) {
   .containerB {
@@ -2178,7 +2298,10 @@ section#contact .form-group textarea {
 
 @media screen and (max-width: 920px) {
   .container__vector img {
-    width: 500px; } }
+    width: 500px; }
+  .vectorial {
+    width: 370px;
+    height: 370px; } }
 
 @media screen and (max-width: 860px) {
   .container__vector img {
@@ -2188,3 +2311,56 @@ section#contact .form-group textarea {
     text-align: center; }
   .container__cover {
     justify-content: center; } }
+
+@media (max-width: 1280px) {
+  .creamos {
+    font-size: 30px;
+    margin-left: 10px; }
+  .renglon {
+    font-size: 30px;
+    margin-left: 10px; } }
+
+@media (max-width: 1151px) {
+  .mq-g {
+    display: none; } }
+
+@media (max-width: 529px) {
+  .minireg {
+    font-size: 25px;
+    text-align: center;
+    margin: 40px 50px 0; }
+  .vectorial {
+    width: 300px;
+    height: 300px; } }
+
+@media (max-width: 1030px) {
+  .cont-serv {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-bottom: 40px; }
+  .service {
+    height: 95vh; } }
+
+@media (max-width: 579px) {
+  .carta {
+    width: 490px; }
+  .service {
+    height: 102vh; } }
+
+@media (max-width: 516px) {
+  width: 390px;
+  height: auto;
+  text-align: initial; }
+
+@media (max-width: 505px) {
+  .carta {
+    width: 344px;
+    height: auto;
+    text-align: initial; }
+  .carta {
+    display: flex;
+    flex-direction: column; }
+  .left-column {
+    max-width: 22rem; } }
